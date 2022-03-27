@@ -1,0 +1,179 @@
+body{
+    background-color: rgb(231, 191, 142);
+}
+#header{ 
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10 px;
+    justify-content: center;
+    display: flex;
+}
+#header button{
+    background-color: bisque;
+    border: 2px solid black;
+    border-radius: 10px;
+   margin: 15px;
+   padding: 10px;
+}
+#header button:hover{
+    transform : scale(1.25);
+    background-color: beige;
+}
+#container{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+}
+
+.folder {
+    background-color: rgb(26, 177, 94);
+    color:white;
+    height: auto;
+    width: 150px;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.folder div[purpose=name]{
+    margin-top: 80px;
+}
+.folder [action]{
+    border: 0.25px solid black;
+    border-radius: 15px;
+    margin: 1px;
+    padding: 10px;
+    background-color: rgb(55, 136, 109);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+#breadcrumb{
+    background-color: bisque;
+    border: 1px solid black;
+    margin: 10px;
+    display: flex;
+}
+
+#breadcrumb a{
+    background-color: rgb(209, 161, 102);
+    padding: 10px;
+   border-right: 3px solid white;
+}
+
+#breadcrumb a:hover{
+    background-color: beige;
+    transform: scale(1.03);
+}
+.text-file {
+    background-color: rgb(144, 94, 226);
+    color:white;
+    height: auto;
+    width: 150px;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+}
+.text-file  div[purpose=name]{
+    margin-top: 80px;
+}
+
+.text-file  [action]{
+    border: 0.25px solid black;
+    border-radius: 15px;
+    margin: 1px;
+    padding: 10px;
+    background-color: rgb(190, 93, 219);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+#app{
+    border: 1px solid black;
+    margin: 10px;
+}
+
+#app-title-bar {
+    display: flex;
+    background-color: rgb(209, 161, 102);
+    height: 40px;
+}
+
+#app-title {
+    width: 94%;
+    text-align: center;
+    border-right: 5px solid red;
+}
+
+#app-menu-bar {
+    display: flex;
+    background-color: teal;
+    height: 40px;
+}
+
+#app-body {
+    display: flex;
+    background-color:rgb(209, 161, 102);
+    height: 500px;
+}
+
+.notepad-menu{
+    width: 100%;
+    padding: 5px;
+}
+
+.notepad-menu * {
+    margin: 0px 5px;
+    padding: 2px;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.notepad-menu span {
+    vertical-align: bottom;
+    
+}
+
+.notepad-menu span:hover {
+    border: 2px solid black;
+    background-color: rgb(209, 161, 102);
+    color: teal;
+}
+
+
+.notepad-menu [pressed=true] {
+    border: 2px solid black;
+    background-color: rgb(1, 10, 10);
+    color: rgb(128, 115, 0);
+}
+
+.notepad-menu input[type=color] {
+    width: 30px;
+}
+
+.notepad-menu select {
+    height: 30px;
+}
+
+.notepad-body {
+    height: 100%;
+    width: 100%;
+}
+
+.notepad-body textarea{
+    height: 100%;
+    width: 100%;
+}
+
+.notepad-body textarea{
+    height: 100%;
+    width: 100%;
+}
+.notepad-menu input[action=upload]{
+    display: none;
+}
+
